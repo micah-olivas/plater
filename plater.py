@@ -1,4 +1,4 @@
-"""Plate reader kinetics analysis — initial rates, control subtraction, MM fits.
+"""Plate reader kinetics analysis: initial rates, control subtraction, MM fits.
 
 Quick usage:
     import plater as pl
