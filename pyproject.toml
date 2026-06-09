@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "plater"
 version = "0.0.1"
-description = "Plate reader kinetics analysis: initial rates, control subtraction, Michaelis-Menten fits."
+description = "Plate reader kinetics analysis: initial rates, standard curves, Michaelis-Menten fits."
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
@@ -19,4 +19,4 @@ dependencies = [
 plot = ["adjustText"]   # for annotate_rates='lines' on-line label placement
 
 [tool.setuptools]
-py-modules = ["plater"]
+packages = ["plater"]
